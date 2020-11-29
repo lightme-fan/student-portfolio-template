@@ -1,0 +1,10 @@
+.project--list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.project-demo {
+    background-color: #5C94E1;
+    color: #ffffff;
+}

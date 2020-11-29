@@ -1,0 +1,64 @@
+body {
+    background-color: #F2F2F2;
+}
+
+article {
+    max-width: 1046px;
+    padding: 1rem;
+    margin: auto;
+}
+
+section {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu--list {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-areas: 
+        "languages blog"
+        "hobbies blog"
+        "hobbies experiences"
+        "hobbies experiences"
+    ;
+    gap: 20px;
+}
+
+.blog {
+    grid-area: blog;
+}
+
+.languages {
+    grid-area: languages;
+}
+
+.hobbies {
+    grid-area: hobbies;
+}
+
+.experiences {
+    grid-area: experiences;
+}
+
+button {
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    margin-right: 1rem;
+}
