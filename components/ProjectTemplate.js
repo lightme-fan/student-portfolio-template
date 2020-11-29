@@ -1,17 +1,17 @@
 import React from 'react'
 
-function ProjectTemplate() {
+function ProjectTemplate({screenshot, type, title, description, url}) {
     return (
         <section>
-            <img src='' alt='Project' />
-            <div>#HTML #CSS #responsive</div>
-            <h3>Title of a Project</h3>
+            <img className='screenshot' src={screenshot} alt='Project' />
+            <div>{type}</div>
+            <h3>{title}</h3>
             <p>
-                In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io
+                {description}
             </p>
 
             <div>
-                <button className='project-demo'>Demo</button>
+                <button className='project-demo'><a href={url}>Demo</a></button>
                 <button>Code</button>
             </div>
         </section>
