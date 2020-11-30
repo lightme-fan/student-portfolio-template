@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectTemplate({screenshot, type, title, description, url}) {
+function ProjectTemplate({screenshot, type, title, description, url, github}) {
     return (
         <section>
             <img className='screenshot' src={screenshot} alt='Project' />
@@ -12,7 +12,7 @@ function ProjectTemplate({screenshot, type, title, description, url}) {
 
             <div>
                 <button className='project-demo'><a href={url}>Demo</a></button>
-                <button>Code</button>
+                <button><a href={github}>Code</a></button>
             </div>
         </section>
     )

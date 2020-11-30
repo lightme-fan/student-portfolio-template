@@ -14,7 +14,8 @@ const portfolioData = [
         id: 1,
         screenshot: game,
         description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-        type: '#HTML #CSS #responsive'
+        type: '#HTML #CSS #responsive',
+        github: 'https://github.com/lightme-fan/game-landing-page'
     },
     {
         title: 'Sports',
@@ -22,7 +23,8 @@ const portfolioData = [
         id: 2,
         screenshot: photo1,
         description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-        type: '#HTML #CSS #responsive'
+        type: '#HTML #CSS #responsive',
+        github: 'https://github.com/lightme-fan/front-end-assessment/tree/main'
     },
     {
         title: 'Photograf',
@@ -30,7 +32,8 @@ const portfolioData = [
         id: 3,
         screenshot: photograf,
         description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-        type: '#HTML #CSS #responsive'
+        type: '#HTML #CSS #responsive',
+        github: 'https://github.com/lightme-fan/front-end-finals/tree/main'
     },
 
     {
@@ -39,7 +42,8 @@ const portfolioData = [
         id: 4,
         screenshot: teaTopic,
         description: 'In this project, I work with Javascript. You can see all tea time topics',
-        type: 'js'
+        type: 'js',
+        github: 'https://github.com/lightme-fan/tea-time-topic'
     },
 
     {
@@ -48,7 +52,8 @@ const portfolioData = [
         id: 5,
         screenshot: button,
         description: 'In this project, I work with Javascript> You can see many kinds of buttons',
-        type: 'js'
+        type: 'js',
+        github: 'https://github.com/lightme-fan/react-button'
     },
     {
         title: 'Input Component',
@@ -56,7 +61,8 @@ const portfolioData = [
         id: 6,
         screenshot: input,
         description: 'In this project, I work with Javascript> You can see many kinds of inputs',
-        type: 'js'
+        type: 'js',
+        github: 'https://github.com/lightme-fan/input-component'
     },
     {
         title: 'Hit parade',
@@ -64,7 +70,8 @@ const portfolioData = [
         id: 10,
         screenshot: hitParade,
         description: 'In this project, I work with Javascript> You can see hit parade about song.',
-        type: 'react'
+        type: 'react',
+        github: 'https://github.com/lightme-fan/hit-parade-react/tree/main'
     }
 ]
 

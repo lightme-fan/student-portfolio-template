@@ -29962,10 +29962,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function Blog() {
   return /*#__PURE__*/_react.default.createElement("section", {
     className: "blog"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://lightme-fan.github.io/blog/"
   }, /*#__PURE__*/_react.default.createElement("h2", null, "Blog"), /*#__PURE__*/_react.default.createElement("img", {
     src: _blog.default,
     alt: "Blog"
-  }), /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi."), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."), /*#__PURE__*/_react.default.createElement("div", null, "Dev.to"));
+  }), /*#__PURE__*/_react.default.createElement("p", null, "In this article I tell the story about Proin eu justo sit amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi."), /*#__PURE__*/_react.default.createElement("p", null, "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."), /*#__PURE__*/_react.default.createElement("div", null, "Dev.to")));
 }
 
 var _default = Blog;
@@ -30017,7 +30019,8 @@ function ProjectTemplate(_ref) {
       type = _ref.type,
       title = _ref.title,
       description = _ref.description,
-      url = _ref.url;
+      url = _ref.url,
+      github = _ref.github;
   return /*#__PURE__*/_react.default.createElement("section", null, /*#__PURE__*/_react.default.createElement("img", {
     className: "screenshot",
     src: screenshot,
@@ -30026,7 +30029,9 @@ function ProjectTemplate(_ref) {
     className: "project-demo"
   }, /*#__PURE__*/_react.default.createElement("a", {
     href: url
-  }, "Demo")), /*#__PURE__*/_react.default.createElement("button", null, "Code")));
+  }, "Demo")), /*#__PURE__*/_react.default.createElement("button", null, /*#__PURE__*/_react.default.createElement("a", {
+    href: github
+  }, "Code"))));
 }
 
 var _default = ProjectTemplate;
@@ -30075,49 +30080,56 @@ var portfolioData = [{
   id: 1,
   screenshot: _game.default,
   description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-  type: '#HTML #CSS #responsive'
+  type: '#HTML #CSS #responsive',
+  github: 'https://github.com/lightme-fan/game-landing-page'
 }, {
   title: 'Sports',
   url: 'https://lightme-fan.github.io/front-end-assessment/',
   id: 2,
   screenshot: _photo.default,
   description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-  type: '#HTML #CSS #responsive'
+  type: '#HTML #CSS #responsive',
+  github: 'https://github.com/lightme-fan/front-end-assessment/tree/main'
 }, {
   title: 'Photograf',
   url: 'https://lightme-fan.github.io/front-end-finals/',
   id: 3,
   screenshot: _photograf.default,
   description: 'In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io',
-  type: '#HTML #CSS #responsive'
+  type: '#HTML #CSS #responsive',
+  github: 'https://github.com/lightme-fan/front-end-finals/tree/main'
 }, {
   title: 'Tea Time Topic',
   url: 'https://affectionate-golick-cab2ba.netlify.app/',
   id: 4,
   screenshot: _teaTopic.default,
   description: 'In this project, I work with Javascript. You can see all tea time topics',
-  type: 'js'
+  type: 'js',
+  github: 'https://github.com/lightme-fan/tea-time-topic'
 }, {
   title: 'Button Component',
   url: 'https://zen-hodgkin-014960.netlify.app/',
   id: 5,
   screenshot: _button.default,
   description: 'In this project, I work with Javascript> You can see many kinds of buttons',
-  type: 'js'
+  type: 'js',
+  github: 'https://github.com/lightme-fan/react-button'
 }, {
   title: 'Input Component',
   url: 'https://admiring-davinci-f03b4d.netlify.app/',
   id: 6,
   screenshot: _input.default,
   description: 'In this project, I work with Javascript> You can see many kinds of inputs',
-  type: 'js'
+  type: 'js',
+  github: 'https://github.com/lightme-fan/input-component'
 }, {
   title: 'Hit parade',
   url: 'https://lightme-fan-hit-parade.netlify.app/',
   id: 10,
   screenshot: _hitParade.default,
   description: 'In this project, I work with Javascript> You can see hit parade about song.',
-  type: 'react'
+  type: 'react',
+  github: 'https://github.com/lightme-fan/hit-parade-react/tree/main'
 }];
 var _default = portfolioData;
 exports.default = _default;
@@ -34358,7 +34370,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52107" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56448" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
